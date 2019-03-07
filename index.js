@@ -6,5 +6,5 @@ const excitedWelcomeMessage = welcomeMessage.toUpperCase ();
 
 const shortGreeting = `Welcome, ${firstInitial}!`;
 
-const firstInitial = currentUser[0];
+const firstInitial = currentUser(0,1);
 const restOfName = currentUser.slice(1);
